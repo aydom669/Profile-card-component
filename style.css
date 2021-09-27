@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* Neutral */
+
+    --Dark-gray: hsl(0, 0%, 59%);
+
+    /* Body Copy */
+
+    --Font-size: 18px;
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+    color: hsl(229, 23%, 23%);
+    overflow: hidden;
+}
+.bola-de-fundo__top img{
+    position: absolute;
+    top: -45%;
+    right: 55%;
+    z-index: 1;
+}
+
+.conteiner{
+    background-position: -90% -500px, 170% 400px;
+    background-repeat: no-repeat;
+    background: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    z-index: 4;
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 15px;
+    max-width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+.card__img--user{
+    margin-bottom: 30px;
+}
+.card__img--user img{
+    margin: -50px auto -30px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid hsl(0, 0%, 100%);
+}
+.card__user--informacoes{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.card__user--titulo{
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: "Kumbh sans", sans-serif;
+}
+.card__user--span{
+    color:  hsl(227, 10%, 46%);
+}
+p{
+    color:  hsl(227, 10%, 46%);
+}
+.lista{
+    margin-bottom: 25px;
+}
+.lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lista li{
+    margin-bottom: 5px;
+}
+.lista span{
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.lista p{
+    font-family: "Kumbh sans", sans-serif;
+    font-size: 15px;
+}
+.bola-de-fundo__bottom{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    z-index: 1;
+}
+
